@@ -1,2 +1,4 @@
 # theMoonProject
-Website about the Moon (HTML, CSS &amp; JS)
+Website about the Moon
+
+Made using HTML, CSS and Javascript.
