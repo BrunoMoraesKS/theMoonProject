@@ -52,15 +52,11 @@
 #beginningButton {
     z-index: 999;
     position: fixed;
-    display: inline-block;
 
     padding: 8px;
 
-    bottom: -10px;
-
     left: 86%;
-    bottom: 2%;
-    transform: translate(-50%, -50%);
+    bottom: 3%;
 
     background-color: #000000;
 
