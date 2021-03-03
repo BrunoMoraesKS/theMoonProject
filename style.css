@@ -983,7 +983,6 @@ body {
 
 #firstCurH3 {
     top: 105px;
-    left: 10px;
 
     left: 50%;
     transform: translate(-130%, -50%);
@@ -998,7 +997,6 @@ body {
 
 #thirdCurH3 {
     top: 650px;
-    left: 15px;
 
     left: 50%;
     transform: translate(-130%, -50%);
@@ -1006,7 +1004,6 @@ body {
 
 #fourthCurH3 {
     top: 630px;
-    left: 175px;
 
     left: 50%;
     transform: translate(28%, -50%);
@@ -1014,7 +1011,6 @@ body {
 
 #firstCurP {
     top: 240px;
-    left: -5px;
 
     left: 50%;
     transform: translate(-115%, -50%);
@@ -1022,7 +1018,6 @@ body {
 
 #secondCurP {
     top: 240px;
-    left: 162px;
 
     left: 50%;
     transform: translate(14%, -50%);
@@ -1030,7 +1025,6 @@ body {
 
 #thirdCurP {
     top: 840px;
-    left: -5px;
 
     left: 50%;
     transform: translate(-115%, -50%);
@@ -1038,7 +1032,6 @@ body {
 
 #fourthCurP {
     top: 840px;
-    left: 162px;
 
     left: 50%;
     transform: translate(14%, -50%);
@@ -1113,9 +1106,237 @@ footer h3{
 
 /* MEDIA QUERY */
 
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    header ul {
+        right: 9px;
+        top: -80px;
+    
+        margin: auto;
+    }
+    
+    header li{
+        font-size: 11px;
+        padding: 4px;
+    }
+
+    header li:first-child {
+        padding-left: 0px;
+        margin-left: -25px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    #whatIsIt {
+        margin-top: 0;
+        left: 45%;
+        width: 150px;
+        height: 240px;
+    }   
+
+    #whatIsIt h2 {
+        font-size: 20px;
+        padding-bottom: 16px;
+    }
+    
+    #whatIsIt p {
+        font-size: 14px;
+    }
+    
+    #fullMoon {
+        margin-top: 35px;
+        width: 150px;
+    }
+
+    @keyframes blackBoxLeftToRight {
+        0%   {background-color: #00000001; width: 8.18px;}
+        10%  {background-color: #00000010; width: 16.36px;}
+        20%  {background-color: #00000020; width: 24.54px;}
+        30%  {background-color: #00000030; width: 32.72px;}
+        40%  {background-color: #00000040; width: 40.9px;}
+        50%  {background-color: #00000050; width: 49.08px;}
+        60%  {background-color: #00000060; width: 57.26px;}
+        70%  {background-color: #00000070; width: 65.44px;}
+        80%  {background-color: #00000080; width: 73.62px;}
+        90%  {background-color: #00000090; width: 81.8px;}
+        100% {background-color: #000000; width: 90px;}
+    }
+    
+    #blackBox {
+        display: inline-block;
+        position: absolute;
+    
+        left: 0px;
+        height: 230px;
+    
+        animation-name: blackBoxLeftToRight;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    #characteristics {
+        margin-top: 300px;
+
+        width: 310px;
+        height: 850px;
+    }
+
+    #characteristics img {
+        width: 210px;
+    }
+
+    #characteristics p {
+        font-size: 18px;
+    }
+
+    #characteristics h2 {
+        font-size: 30px;
+    }
+
+    #characteristicsDiv {
+        top: 280px;
+    }
+
+    #studiesAndExploration {
+        margin-top: 1225px;
+        width: 310px;
+        height: 2830px;
+    }
+
+    #studiesAndExploration img {
+        width: 210px;
+    }
+
+    #studiesAndExploration p {
+        font-size: 18px;
+    }
+
+    #studiesAndExploration h2 {
+        font-size: 30px;
+    }
+
+
+    #studiesAndExplorationDiv {
+        top: 1190px;
+    }
+
+    #curiosities {
+        margin-top: 4150px;
+        width: 310px;
+    }
+
+    #curiosities img {
+        width: 145px;
+        height: 100px;
+    }
+
+    #curiositiesDiv {
+        top: 4110px;
+    }
+
+    #curiosities h2 {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+    
+    #curiosities h3{       
+        font-size: 17px; 
+    }
+    
+    #curImg1 {
+        top: 340px;
+        left: 5px;
+    }
+    
+    #curImg2 {
+        top: 340px;
+        left: 10px;
+    }
+    
+    #firstCurH3 {
+        top: 105px;
+    
+        left: 55%;
+        transform: translate(-130%, -50%);
+    }
+    
+    #secondCurH3 {
+        top: 90px;
+    
+        left: 45%;
+        transform: translate(28%, -50%);
+    }
+    
+    #thirdCurH3 {
+        top: 610px;
+    
+        left: 55%;
+        transform: translate(-130%, -50%);
+    }
+    
+    #fourthCurH3 {
+        top: 590px;
+        left: 175px;
+    
+        left: 45%;
+        transform: translate(28%, -50%);
+    }
+    
+    #firstCurP {
+        top: 240px;
+        left: -5px;
+    
+        left: 55%;
+        transform: translate(-115%, -50%);
+    }
+    
+    #secondCurP {
+        top: 240px;
+        left: 162px;
+    
+        left: 45%;
+        transform: translate(14%, -50%);
+    }
+    
+    #thirdCurP {
+        top: 800px;
+        left: -5px;
+    
+        left: 55%;
+        transform: translate(-115%, -50%);
+    }
+    
+    #fourthCurP {
+        top: 800px;
+        left: 162px;
+    
+        left: 45%;
+        transform: translate(14%, -50%);
+    }
+
+    #container {
+        height: 6000px;
+    }
+
+    footer {
+        top: 5295px;
+    }
+
+    #beginningButton {
+        left: 80%;
+    }
+}
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    #beginningButton {
+        left: 88%;
+    }
+    
     #whatIsIt {
         left: 45%;
         width: 230px;
@@ -1131,6 +1352,10 @@ footer h3{
     }
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    #beginningButton {
+        left: 90%;
+    }
+    
     header ul {
         right: 25px;
         top: -80px;
@@ -1261,6 +1486,10 @@ footer h3{
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    #beginningButton {
+        left: 93%;
+    }
+    
     header ul {
         right: 25px;
         top: -80px;
